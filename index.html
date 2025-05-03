@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Portifolio</title>
+</head>
+<body>
+     <div class="particulas"></div>
+
+
+    <nav class="navegacao">
+        <ul class="menu">
+    
+            <li>
+                <a href="#inicio" class="menu-link"> Início</a>
+            </li>
+            <li>
+                <a href="#sobre"  class="menu-link"> Sobre</a>
+            </li>
+            <li>
+                <a href="projetos"  class="menu-link"> Projetos</a>
+            </li>
+            <li>
+                <a href="#contato"  class="menu-link"> Contato</a>
+            </li>
+        </ul>
+
+    </nav>
+
+    <main id="Início" class="cabecalho">
+      
+            <img src="./img/caian.jgp.jpeg" alt="Foto de Caian Patrick" class="foto-perfil">
+            <h1>Caian Patrick</h1>
+            <p class="cabecalho-sub-titulo">Desenvolvedor Front-End</p>
+      
+
+    </main>
+
+    <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">
+                Olá, meu nome é Caian Patrick e sou um desenvolvedor Front-End apaixonado por criar experiências digitais incríveis. Tenho experiência em HTML, CSS e JavaScript, e estou sempre em busca de aprender novas tecnologias e aprimorar minhas habilidades. Meu objetivo é desenvolver interfaces de usuário intuitivas e responsivas que proporcionem uma navegação fluida e agradável.
+            </p>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+            <div class="projetos-card">
+               <img src="./img/cafeteria.jgp.png" alt="Projeto 1" class="projetos-imagem">
+               <div class="caixa-textos-projetos"> 
+                <h3 class="info-projetos">Site De Uma Cafeteria</h3>
+                <p class="paragrafo-projetos">Este site de cafeteria foi desenvolvido utilizando HTML, CSS e JavaScript, oferecendo uma experiência moderna e responsiva para os visitantes. A estrutura HTML organiza o conteúdo de forma clara e acessível, enquanto o CSS estiliza as páginas com um design acolhedor, inspirado em cafeterias artesanais. O JavaScript adiciona interatividade ao site, como um menu dinâmico, sistema de filtro de produtos e um modo noturno opcional. Ideal para apresentar o cardápio, horários de funcionamento, localização e promoções especiais da cafeteria.</p>
+               </div>
+            </div>
+
+            <div class="projetos-caixa">
+                <div class="projetos-card">
+                   <img src="./img/devstore.jgp.png" alt="Projeto 2" class="projetos-imagem">
+                   <div class="caixa-textos-projetos">
+                    <h3 class="info-projetos">Loja Virtual</h3>
+                    <p class="paragrafo-projetos">O Dev Store é um projeto de loja virtual desenvolvido com HTML, CSS e JavaScript, oferecendo uma experiência de navegação moderna, responsiva e centrada no usuário. O site simula um e-commerce com produtos exibidos em cards organizados, visual atraente e navegação fluida. O layout é limpo e bem estruturado, com destaque para a vitrine de produtos e uma interface amigável. Funcionalidades como filtros ou organização visual dos itens proporcionam uma base sólida para expansão futura, como carrinho de compras ou integração com back-end.</p>
+                   </div>
+                </div>
+
+                    <div class="projetos-caixa">
+                        <div class="projetos-card">
+                           <img src="./img/página de login.jgp.png" alt="Projeto 4" class="projetos-imagem">
+                           <div class="caixa-textos-projetos">
+                            <h3 class="info-projetos">Pagina De Login</h3>
+                            <p class="paragrafo-projetos"> Este projeto consiste em uma página de login desenvolvida exclusivamente com HTML e CSS. A interface apresenta um layout moderno, limpo e centrado, com campos para e-mail e senha, além de um botão de acesso. O design responsivo garante boa visualização em diferentes tamanhos de tela. A aplicação destaca o uso eficaz de estilização com CSS puro, incluindo sombras, bordas arredondadas e alinhamento centralizado, demonstrando uma sólida compreensão de estruturação e design visual mesmo sem o uso de JavaScript.</p>
+                           </div>
+                        </div>
+
+                        <div class="projetos-caixa">
+                            <div class="projetos-card">
+                               <img src="./img/sorteador de números.jgp.png" alt="Projeto 5" class="projetos-imagem">
+                               <div class="caixa-textos-projetos">
+                                <h3 class="info-projetos">Sorteador De Números</h3>
+                                <p class="paragrafo-projetos"> Este projeto entrega exatamente o que promete: um sorteador de números funcional e intuitivo, desenvolvido com HTML, CSS e JavaScript. Com um visual limpo e amigável, o usuário pode definir um intervalo numérico e, com um clique, obter um número aleatório instantaneamente. A interação é rápida, a resposta é clara, e a experiência é fluida – tudo o que se espera de uma ferramenta leve, feita para resolver um problema específico de forma elegante. Um ótimo exemplo de como poucos recursos bem aplicados podem gerar um resultado funcional e agradável. </p>
+                               </div>
+                            </div>
+
+        
+        </div>
+    </section>
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Entre em Contato</h2>
+        
+        <div class="projetos-caixa"> <!-- Reaproveitando o estilo da grid -->
+            <div class="projetos-card"> <!-- Caixa com borda, blur e sombra -->
+                <form class="formulario-contato" id="formulario-contato" onsubmit="enviarWhats(event)" >
+                    <div class="grupo-form" >
+                        <input placeholder="Nome" class="campo-form" id="nome">
+                    </div>
+    
+                    <div class="grupo-form">
+                        <textarea class="campo-form" placeholder="Digite Sua Mensagem" rows="6" id="mensagem"></textarea>
+                    </div>
+    
+                    <button type="submit" class="botao-form">Enviar Whatsapp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+    
+  document.getElementById('formulario-contato').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const nome = document.getElementById('nome').value.trim();
+    const mensagem = document.getElementById('mensagem').value.trim();
+
+    const texto = `Olá, meu nome é ${nome}. ${mensagem}`;
+    const numeroWhatsApp = '5561994104605';
+
+    const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(texto)}`;
+    
+    window.open(url, '_blank');
+  });
+</script>
+
+
+
+    </script>
+</body>
+</html>
