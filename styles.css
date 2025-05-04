@@ -73,7 +73,7 @@ body {
 }
 
 .foto-perfil {
-   width: 350px;
+   width: 300px;
     height: 300px;
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
     border-radius: 50%;
@@ -261,10 +261,9 @@ botao-form:hover {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    background: radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%), 
-    linear-gradient(45deg, var(--primaria), var(--secundaria));
-    background: var(--maisEscuro);
-
+    radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
+    radial-gradient(circle at 90% 80%, var(--secundaria)0%, transparent 20%),
+    var(--maisEscuro);
 }
 
 @keyframes flutuar {
