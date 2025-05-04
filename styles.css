@@ -261,7 +261,7 @@ botao-form:hover {
     height: 100%;
     z-index: -1;
     opacity: 0.5;
-    radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
+    background: (circle at 10% 20%, var(--primaria) 0%, transparent 20%),
     radial-gradient(circle at 90% 80%, var(--secundaria)0%, transparent 20%),
     var(--maisEscuro);
 }
